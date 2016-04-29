@@ -1,0 +1,59 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h2 {
+  font-weight: bold;
+  color: #777777;
+  text-align: center;
+}
+
+#signInOut {
+	float: left;
+}
+
+#nav {
+	line-height:30px;
+    height:25px;
+    width:100px;
+    float: right;
+    padding:5px; 
+	position: relative;
+	right: 100px;
+}
+
+#pageContent {
+	clear: both;
+}
+
+#searchContainer {
+	width: 25%;
+	height: 100%;
+	float: right;
+}
+
+#mapPanel {
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+
+
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
